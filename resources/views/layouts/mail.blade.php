@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="text-center text-white p-3" style="background: #9575CD">
-                    <h4>VIP Lounge.</h4>
+                    <h4>BitmaTraders.</h4>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
                         <a href="#" class="text-dark"><i class="fa fa-telegram fa-2x"></i></a>
                         <a href="#" class="text-dark"><i class="fa fa-envelope fa-2x"></i></a>
                     </div>
-                    <p>&copy; <script>document.write(new Date().getFullYear())</script> VIP Lounge</p>
+                    <p>&copy; <script>document.write(new Date().getFullYear())</script> BitmaTraders</p>
                 </div>
             </div>
         </div>

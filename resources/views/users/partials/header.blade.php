@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="generator" content="">
-    <title>VIP Lounge::@yield('title')</title>
+    <title>{{ env('APP_NAME') }}::@yield('title')</title>
 
     <!-- manifest meta -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -29,7 +29,7 @@
 
     <!-- Custom styles for this template -->
     <link href="/css/style.css" rel="stylesheet" id="style">
-    <link href="/css/style-dark-purple.css" rel="stylesheet" id="style">
+    <link href="/css/style-gray.css" rel="stylesheet" id="style">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" integrity="sha512-vKMx8UnXk60zUwyUnUPM3HbQo8QfmNx7+ltw8Pm5zLusl1XIfwcxo8DbWCqMGKaWeNxWA8yrx5v3SaVpMvR3CA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
@@ -40,9 +40,9 @@
             <div class="align-self-center col">
                 <div class="logo-loading">
                     <div class="icon icon-100 mb-4 rounded-circle">
-                        <img src="{{ asset('logo.png') }}" alt="" class="w-100">
+                        <h4><span>Bitma</span><span class="text-primary">Traders</span></h4>
                     </div>
-                    <h4 class="text-default">VIP Lounge</h4>
+                    <h4 class="text-default">{{ env('APP_NAME') }}</h4>
                     <div class="loader-ellipsis">
                         <div></div>
                         <div></div>
@@ -68,7 +68,7 @@
                 @endif
                 <div class="text-left col align-self-center">
                     <a class="navbar-brand" href="#">
-                        <h5 class="mb-0">VIP Lounge</h5>
+                        <h5 class="mb-0">BitmaTraders</h5>
                     </a>
                 </div>
                 <div class="ml-auto col-auto pl-0">

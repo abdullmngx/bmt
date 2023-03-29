@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="generator" content="">
-    <title>VIP Lounge::@yield('title')</title>
+    <title>{{ env('APP_NAME') }}::@yield('title')</title>
 
     <!-- manifest meta -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -27,7 +27,7 @@
     <link href="/vendor/swiper/css/swiper.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="/css/style.css" rel="stylesheet" id="style">
-    <link href="/css/style-dark-purple.css" rel="stylesheet" id="style">
+    <link href="/css/style-gray.css" rel="stylesheet" id="style">
 </head>
 
 <body class="body-scroll d-flex flex-column h-100 menu-overlay">
@@ -37,9 +37,9 @@
             <div class="align-self-center col">
                 <div class="logo-loading">
                     <div class="icon icon-100 mb-4 rounded-circle">
-                        <img src="{{ asset('logo.png') }}" alt="" class="w-100">
+                        <h4><span>Bitma</span><span class="text-primary">Traders</span></h4>
                     </div>
-                    <h4 class="text-default">VIP Lounge</h4>
+                    <h4 class="text-default">{{ env('APP_NAME') }}</h4>
                     <div class="loader-ellipsis">
                         <div></div>
                         <div></div>

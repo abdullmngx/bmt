@@ -24,7 +24,7 @@
                     <p>Once your payment is confirmed on the blockchain the system will automatically activate your bot</p>
                     <p>However you can click on "I have made payment" button below to verify payment yourself.</p>
                     <p>please wait atleast 5-10 mins to verify payment, as your payment does not reflect immediately on the blockchain.</p>
-                    <p><span class="text-danger"><b>Note</b> any amount lesser than the amount specified will result in loss of funds and VIP Lounge holds not account for such loss.</span></p>
+                    <p><span class="text-danger"><b>Note</b> any amount lesser than the amount specified will result in loss of funds and BitmaTraders holds not account for such loss.</span></p>
                 </div>
             </div>
         </div>

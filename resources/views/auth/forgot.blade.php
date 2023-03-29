@@ -8,7 +8,7 @@
         <div class="col-12 align-self-center mb-4">
             <div class="row justify-content-center">
                 <div class="col-11 col-sm-7 col-md-6 col-lg-5 col-xl-4">
-                    <h2 class="font-weight-normal mb-5">VIP Lounge</h2>
+                    <h2 class="font-weight-normal mb-5">{{ env('APP_NAME') }}</h2>
                     <h5 class="font-weight-normal mb-3">Forgot<br>your password?</h5>
                     <p class="mb-5">Provide your registered email address to change password.</p>
                     <div class="form-group float-label">
