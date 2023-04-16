@@ -75,7 +75,7 @@
                     <button type="button" class="btn btn-link btn-40 colorsettings">
                         <span class="material-icons">color_lens</span>
                     </button>
-                    <a href ="https://t.me/Theviplounge2" class="btn btn-40 btn-link"><span class="material-icons">phone</span> </a>
+                    <a href ="#" class="btn btn-40 btn-link"><span class="material-icons">phone</span> </a>
                     <a href="/users/logout" class="btn btn-40 btn-link" >
                         <span class="material-icons">logout</span>
                     </a>
