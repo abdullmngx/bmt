@@ -12,7 +12,7 @@
         <p>Payment options</p>
         <div class="form-group mb-4">
             <select name="pay_type" id="" class="form-control" required>
-                <option value="fiat">Fiat</option>
+                {{-- <option value="fiat">Fiat</option> --}}
                 <option value="crypto">Crypto</option>
             </select>
         </div>
@@ -20,10 +20,10 @@
             <div class="media">
                 <div class="icon icon-40 bg-white text-success mr-2 rounded-circle"><i class="material-icons">local_offer</i></div>
                 <div class="media-inner">
-                    <p>The fiat option sends funds to your local bank account</p>
+                    {{--<p>The fiat option sends funds to your local bank account</p>--}}
                     <p>Crypto payments sends funds to your receiving wallet</p>
-                    <p>Both account and wallet should be set from your profile.</p>
-                    <p><span class="text-danger"><b>Note</b> both payment options draws a service charge of 10% of withdrawal amount.</span></p>
+                    <p>Wallet address should be set from your profile.</p>
+                    <p><span class="text-danger"><b>Note</b> Payment draws a service charge of 10% of withdrawal amount.</span></p>
                 </div>
             </div>
         </div>

@@ -16,7 +16,7 @@
                     <div class="alert alert-danger">
                         <b>Please Note that only USDTTRC20 is supported for crypto transactions</b>
                     </div>
-                    <div class="form-group float-label {{ !is_null(auth()->user()->account_name) ? 'active' : '' }}">
+                    {{-- <div class="form-group float-label {{ !is_null(auth()->user()->account_name) ? 'active' : '' }}">
                         <input type="hidden" name="user_id" value="{{ auth()->id() }}">
                         <input type="text" class="form-control" name="account_name" value="{{ auth()->user()->account_name }}">
                         <label class="form-control-label">Account Name <span class="text-danger">*</span></label>
@@ -33,7 +33,7 @@
                                 <option value="{{ $bank['name'] }}-{{ $bank['code'] }}" {{ $bank['code'] === auth()->user()->bank_code ? 'selected' : '' }}>{{ $bank['name'] }}</option>
                             @endforeach
                         </select>
-                    </div>
+                    </div> --}}
                     <div class="form-group float-label {{ !is_null(auth()->user()->wallet_address) ? 'active' : '' }}">
                         <input type="text" class="form-control" name="wallet_address" value="{{ auth()->user()->wallet_address }}">
                         <label class="form-control-label">USDT Wallet Address</label>

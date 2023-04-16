@@ -135,11 +135,6 @@ class UserController extends Controller
 
     public function setPayment(Request $request)
     {
-        $request->validate([
-            'account_name' => 'required',
-            'account_number' => 'numeric|required',
-            'bank' => 'required'
-        ]);
         $setPayment = $this->userService->setPayment(auth()->id(),$request);
         return back()->with('message', 'Info Saved');
     }

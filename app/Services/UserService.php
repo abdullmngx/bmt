@@ -57,10 +57,10 @@ class UserService
 
     public function setPayment($user_id, $request)
     {
-        $details = $request->only('account_name', 'account_number', 'wallet_address');
-        $details['bank_name'] = explode('-', $request->bank)[0];
+        $details = $request->only(/*'account_name', 'account_number', */'wallet_address');
+        /*$details['bank_name'] = explode('-', $request->bank)[0];
         $details['bank_code'] = explode('-', $request->bank)[1];
-        $details['bank_status'] = 'set';
+        $details['bank_status'] = 'set';*/
         return $this->userRepository->update($user_id, $details);
     }
 

@@ -27,7 +27,7 @@
     </div>
     <div class="container text-center">
         <button type="submit" class="btn btn-default mb-2 mx-auto rounded">Pay With Crypto</button>
-        <button type="button" class="btn btn-warning mb-2 mx-auto rounded" onclick="makePayment()">Bank Transfer</button>
+        {{-- <button type="button" class="btn btn-warning mb-2 mx-auto rounded" onclick="makePayment()">Bank Transfer</button>--}}
     </div>
     </form>
 </div>
@@ -37,6 +37,7 @@
 
 @section('scripts')
 <script src="https://checkout.flutterwave.com/v3.js"></script>
+{{--
 <script>
     function makePayment() 
     {
@@ -59,5 +60,5 @@
             }
         });
     }
-</script>
+</script> --}}
 @endsection
